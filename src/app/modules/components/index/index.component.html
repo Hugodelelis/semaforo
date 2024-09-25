@@ -1,0 +1,7 @@
+<main>
+    <div class="container">
+        <button class="circle green" [class.active]="currentState === 'green'" (click)="changeState('green')"></button>
+        <button class="circle yellow" [class.active]="currentState === 'yellow'" (click)="changeState('yellow')"></button>
+        <button class="circle red" [class.active]="currentState === 'red'" (click)="changeState('red')"></button>
+    </div>
+</main>
